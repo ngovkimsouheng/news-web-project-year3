@@ -37,7 +37,7 @@ include_once('../config.php');
 
     <main>
 
-        <section class="relative bg-white  sm:py-10 sm:my-10">
+        <!-- <section class="relative bg-white  sm:py-10 sm:my-10">
             <section class="lg:w-7xl mx-auto px-4">
                 <div class="lg:container px-4 py-4 lg:mx-auto relative">
                     <div class="absolute inset-0 flex p-4 max-lg:opacity-5 lg:opacity-100 pointer-events-none">
@@ -93,7 +93,7 @@ include_once('../config.php');
                     </div>
                 </div>
             </section>
-        </section>
+        </section> -->
 
 
 

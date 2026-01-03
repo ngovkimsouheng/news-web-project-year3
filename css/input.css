@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    /* This creates the .font-primary class */
+    --font-primary: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+    /* You can also define a secondary font if needed */
+    --font-secondary: "Roboto", edge-serif, serif;
+
+    --color-primary: #0d0850;
+    --color-secondary: #FFC841;
+    --color-accent: #565452;
+    --color-background: #F8F3E9;
+
+    /* --font-Secondary: "Kantumruy Pro", sans-serif; */
+
+}
+/* The Skeleton Pulse Animation */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.img-skeleton {
+  background-color: #e5e7eb; /* tailwind gray-200 */
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
